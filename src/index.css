@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  margin: auto;
+  width: 60%;
+}
+.flex-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-blog {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.background-sub {
+  background-color: red;
+  padding: 9px;
+  border-radius: 10px;
+}
+.background-trend {
+  margin-top: 25px;
+  background-color: blue;
+  border-radius: 5px;
+  width: 8%;
+  padding: 3px;
+}
+.background-2 {
+  background: skyblue;
+  border-radius: 5px;
+}
+.box-ls {
+  border: 2px solid black;
+  height: 325px;
+  padding-top: 80px;
+  width: 50%;
+  border-radius: 5px;
+}
+.box-tech {
+  border: 2px solid black;
+  height: 150px;
+  padding-top: 80px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.flex-container {
+  display: flex;
+  margin-top: 50px;
+  padding: auto;
+}
+.box-bis {
+  border: 2px solid black;
+  height: 146px;
+  border-radius: 5px;
+  width: 50%;
+}
+.box-sp {
+  border: 2px solid black;
+  height: 146px;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 50%;
+}
+.flex2-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Box-fans {
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(28, 28, 223);
+}
+.Box-followers {
+  border: 2px solid black;
+  text-align: center;
+  width: 80px;
+  background-color: rgb(223, 19, 241);
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 80px;
+}
+.Box-sub {
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5px;
+  width: 80px;
+  background-color: rgb(199, 2, 2);
+  margin-left: 10px;
+  height: 80px;
+}
+.flex-container3 {
+  display: flex;
+}
+.tth {
+  margin-top: 40px;
+}
+.flex-tth {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box-tech2 {
+  border: 2px solid black;
+  padding-top: 80px;
+  border-radius: 5px;
+  height: 150px;
+  width: 90%;
+}
+.box-travel {
+  border: 2px solid black;
+  padding-top: 80px;
+  border-radius: 5px;
+  height: 150px;
+  width: 80%;
+}
+.flex-tt {
+  display: flex;
+  margin-top: 20px;
+}
+.box-travel-2 {
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: lightblue;
+}
+.box-busisness-2 {
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: lightpink;
+}
+.box-market {
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: rgb(145, 145, 17);
+}
+.box-photo {
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: blue;
+}
+.box-sports-2 {
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: orange;
+}
+.box-gad {
+  border: 2px solid black;
+  padding-top: 80px;
+  border-radius: 5px;
+  height: 150px;
+  width: 85%;
+}
+.box-spt {
+  border: 2px solid rgb(7, 7, 7);
+  padding-top: 80px;
+  border-radius: 5px;
+  height: 150px;
+  width: 80%;
+}
+.flex-container-4 {
+  display: flex;
+  margin-top: 20px;
+}
+.adjust {
+  margin-left: 40px;
+}
+.mar-rp {
+  margin-top: 30px;
+}
+.mar-p1 {
+  margin-top: 30px;
+}
+.mar-p2 {
+  margin-top: 30px;
+}
+.mar-p3 {
+  margin-top: 30px;
+}
+.mar-p4 {
+  margin-top: 30px;
+}
+.box-marketing {
+  border: 2px solid black;
+  padding-top: 80px;
+  border-radius: 5px;
+  height: 150px;
+  width: 80%;
+}
+.box-pgy {
+  border: 2px solid black;
+  padding-top: 80px;
+  border-radius: 5px;
+  height: 150px;
+  width: 80%;
+}
+.box-ad {
+  border: 2px solid black;
+  height: 180px;
+  text-align: center;
+  width: 40%;
+  border-radius: 4px;
+  background-color: lightgrey;
+}
+.flex-container-5 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.box-post {
+  border: 2px solid black;
+  width: 15%;
+  height: 35px;
+  border-radius: 7px;
+  background-color: skyblue;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+.line {
+  margin-top: 10px;
+  background: black;
+  height: 1px;
+  border: 1px;
+}
+.flex-sn-cb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.box-marketing-2 {
+  border: 2px solid black;
+  width: 90%;
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+}
+.box-photography-2 {
+  border: 2px solid black;
+  width: 90%;
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+}
+.box-sports-3 {
+  border: 2px solid black;
+  width: 90%;
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+}
+.box-gadgets-3 {
+  border: 2px solid black;
+  width: 90%;
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+}
+.flex-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hij {
+  width: 200px;
+}
+.lki {
+  width: 200px;
+}
+.lmn {
+  width: 200px;
+}
+.dfg {
+  width: 200px;
+}
+.line-2 {
+  margin-top: 40px;
+  background-color: black;
+  height: 1px;
+  border: 5px;
+}
+.box-mailid {
+  border: 2px solid black;
+  height: 30px;
+  text-align: center;
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 25%;
+}
+.box-sub2 {
+  border: 2px solid black;
+  height: 25px;
+  text-align: center;
+  padding: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  width: 15%;
+}
+.red-wid {
+  width: 35%;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.flex-6 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.line-3 {
+  margin-top: 40px;
+  background-color: black;
+  height: 1px;
+  border: 1px;
+}
+.Box-bs1 {
+  border: 2px solid black;
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: red;
+}
+.Box-mt1 {
+  border: 2px solid black;
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: blue;
+}
+.wer {
+  width: 200px;
+}
+.sdf {
+  width: 200px;
+}
+.mar-top {
+  margin-top: 60px;
+}
+.flex-words {
+  display: flex;
+}
+.mar-nav {
+  margin-top: 60px;
+  padding-left: 30px;
+}
+.width {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.width-pop {
+  width: 250px;
+  margin-top: 20px;
+}
+.margin-oma {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.margin-gru {
+  margin-top: 60px;
+  padding-left: 30px;
+}
+.margin-whapp {
+  margin-top: 20px;
+}
+.margin-features {
+  margin-top: 20px;
+}
+.flex-words {
+  display: flex;
+  justify-content: space-between;
+}
+.margin-ht {
+  margin-top: 30px;
+}
+.line-4 {
+  margin-top: 40px;
+  background-color: black;
+  height: 1px;
+  border: 1px;
+}
+.flex-webes {
+  display: flex;
+  margin-top: 40px;
+}
+.pad-wb {
+  padding-left: 20%;
+}
+.pad-ee {
+  padding-left: 14%;
+}
+.pad-terms {
+  padding-left: 20px;
+}
+.pad-privacy {
+  padding-left: 20px;
+}
+.pad-cookie {
+  padding-left: 20px;
+}
+.width-pfm {
+  width: 60%;
+}
+.width-tim {
+  width: 60%;
+}
+.width-srg {
+  width: 60%;
+}
+.pad-box-pgy {
+  margin-right: 50px;
+}
+.adj-width {
+  width: 90%;
+}
+.width-unaffected {
+  width: 90%;
+}
+.pad-trendingtopics {
+  margin-right: 15%;
+}
+.adj-doy {
+  width: 250px;
+}
+.flex-abc {
+  margin: auto;
+  width: 60%;
+}
+.center {
+  margin: auto;
+  width: 60%;
+}
+.adjust-a {
+  width: 250px;
+}
+.ad-fw {
+  width: 250px;
+}
+.ad-rd {
+  width: 250px;
+}
+.ad-pw {
+  width: 250px;
+}
+.image-ls {
+  position: absolute;
+  width: 363px;
+  height: 407px;
+  left: 305px;
+  border-radius: 4px;
+  top: 196px;
+}
+.lf-position {
+  position: relative;
+}
+.image-tech {
+  position: absolute;
+  width: 523px;
+  height: 233px;
+  border-radius: 4px;
+  top: 196px;
+}
+.tech-position {
+  position: relative;
+  color: white;
+}
+.image-busis {
+  position: absolute;
+  width: 250px;
+  height: 148px;
+  border-radius: 4px;
+}
+.busis-position {
+  position: relative;
+}
+.img-sports {
+  position: absolute;
+  width: 225px;
+  height: 146px;
+  border-radius: 4px;
+}
+.spt-position {
+  position: relative;
+}
+.image-tech2 {
+  position: absolute;
+  width: 297px;
+  height: 235px;
+  border-radius: 4px;
+  top: 758px;
+}
+.tech2-position {
+  position: relative;
+  color: white;
+}
+.image-travel {
+  position: absolute;
+  width: 260px;
+  height: 235px;
+  border-radius: 4px;
+  top: 758px;
+  right: 630px;
+}
+.travel-position {
+  position: relative;
+}
+.image-gadjects {
+  position: absolute;
+  width: 300px;
+  height: 232px;
+  border-radius: 4px;
+  top: 1313px;
+}
+.gad-position {
+  position: relative;
+  color: white;
+}
+.image-sports2 {
+  position: absolute;
+  width: 230px;
+  height: 233px;
+  border-radius: 4px;
+  top: 1313px;
+  right: 632px;
+}
+.sports2-position {
+  position: relative;
+}
+.image-market {
+  position: absolute;
+  width: 185px;
+  height: 202px;
+  border-radius: 4px;
+  left: 304px;
+}
+.position-market {
+  position: relative;
+  color: white;
+}
+.image-mark2 {
+  position: absolute;
+  width: 301px;
+  height: 236px;
+  top: 1791px;
+  border-radius: 4px;
+  left: 304px;
+}
+.position-mark {
+  position: relative;
+}
+.image-photo {
+  position: absolute;
+  width: 301px;
+  height: 236px;
+  top: 1791px;
+  border-radius: 4px;
+  right: 39%;
+}
+.position-photo {
+  position: relative;
+}
+.image-photo2 {
+  position: absolute;
+  width: 185px;
+  height: 202px;
+  border-radius: 4px;
+  left: 35.5%;
+}
+.position-photo2 {
+  position: relative;
+}
+.image-sports3 {
+  position: absolute;
+  width: 185px;
+  height: 202px;
+  border-radius: 4px;
+  left: 51.2%;
+}
+.position-sports2 {
+  position: relative;
+}
+.image-gad2 {
+  position: absolute;
+  width: 185px;
+  height: 202px;
+  border-radius: 4px;
+  left: 66.8%;
+}
+.position-gad2 {
+  position: relative;
+}
+.width1 {
+  width: 90%;
+}
+.width2 {
+  width: 90%;
+}
+.width3 {
+  width: 90%;
+}
+.width4 {
+  width: 90%;
+}
