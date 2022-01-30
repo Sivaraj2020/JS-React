@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.flex {
+.Blog {
   margin: auto;
   width: 60%;
 }
-.flex-about {
+.flex-header {
   display: flex;
   justify-content: space-between;
 }
@@ -82,7 +82,7 @@
   border: 2px solid black;
   text-align: center;
   width: 80px;
-  background-color: rgb(223, 19, 241);
+  background-color: pink;
   border-radius: 5px;
   margin-left: 10px;
   height: 80px;
@@ -92,7 +92,7 @@
   text-align: center;
   border-radius: 5px;
   width: 80px;
-  background-color: rgb(199, 2, 2);
+  background-color: red;
   margin-left: 10px;
   height: 80px;
 }
@@ -128,27 +128,27 @@
 .box-travel-2 {
   border: 2px solid black;
   margin-top: 20px;
-  background-color: lightblue;
+  
 }
 .box-busisness-2 {
   border: 2px solid black;
   margin-top: 20px;
-  background-color: lightpink;
+  
 }
 .box-market {
   border: 2px solid black;
   margin-top: 20px;
-  background-color: rgb(145, 145, 17);
+  
 }
 .box-photo {
   border: 2px solid black;
   margin-top: 20px;
-  background-color: blue;
+  
 }
 .box-sports-2 {
   border: 2px solid black;
   margin-top: 20px;
-  background-color: orange;
+  
 }
 .box-gad {
   border: 2px solid black;
@@ -450,21 +450,21 @@
 }
 .image-ls {
   position: absolute;
-  width: 363px;
+  width: 387px;
   height: 407px;
-  left: 305px;
+  left: 296px;
   border-radius: 4px;
-  top: 196px;
+  top: 184px;
 }
 .lf-position {
   position: relative;
 }
 .image-tech {
   position: absolute;
-  width: 523px;
-  height: 233px;
+  width: 469px;
+  height: 236px;
   border-radius: 4px;
-  top: 196px;
+  top: 183px;
 }
 .tech-position {
   position: relative;
@@ -472,9 +472,9 @@
 }
 .image-busis {
   position: absolute;
-  width: 250px;
+  width: 222px;
   height: 148px;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 .busis-position {
   position: relative;
@@ -490,10 +490,10 @@
 }
 .image-tech2 {
   position: absolute;
-  width: 297px;
+  width: 285px;
   height: 235px;
   border-radius: 4px;
-  top: 758px;
+  top: 746px;
 }
 .tech2-position {
   position: relative;
@@ -501,21 +501,21 @@
 }
 .image-travel {
   position: absolute;
-  width: 260px;
-  height: 235px;
-  border-radius: 4px;
-  top: 758px;
-  right: 630px;
+    width: 246px;
+    height: 235px;
+    border-radius: 4px;
+    top: 746px;
+    right: 614px;
 }
 .travel-position {
   position: relative;
 }
 .image-gadjects {
   position: absolute;
-  width: 300px;
-  height: 232px;
-  border-radius: 4px;
-  top: 1313px;
+    width: 290px;
+    height: 232px;
+    border-radius: 4px;
+    top: 1188px;
 }
 .gad-position {
   position: relative;
@@ -526,18 +526,21 @@
   width: 230px;
   height: 233px;
   border-radius: 4px;
-  top: 1313px;
-  right: 632px;
+  top: 1187px;
+  right: 613px;
 }
+
+
+
 .sports2-position {
   position: relative;
 }
 .image-market {
   position: absolute;
-  width: 185px;
-  height: 202px;
+  width: 182px;
+  height: 200px;
   border-radius: 4px;
-  left: 304px;
+  left: 295px;
 }
 .position-market {
   position: relative;
@@ -567,30 +570,30 @@
 }
 .image-photo2 {
   position: absolute;
-  width: 185px;
-  height: 202px;
-  border-radius: 4px;
-  left: 35.5%;
+    width: 185px;
+    height: 202px;
+    border-radius: 4px;
+    left: 35.5%;
 }
 .position-photo2 {
   position: relative;
 }
 .image-sports3 {
   position: absolute;
-  width: 185px;
-  height: 202px;
+  width: 182px;
+  height: 201px;
   border-radius: 4px;
-  left: 51.2%;
+  left: 751px;
 }
 .position-sports2 {
   position: relative;
 }
 .image-gad2 {
   position: absolute;
-  width: 185px;
-  height: 202px;
-  border-radius: 4px;
-  left: 66.8%;
+    width: 185px;
+    height: 202px;
+    border-radius: 4px;
+    left: 35.5%;
 }
 .position-gad2 {
   position: relative;
